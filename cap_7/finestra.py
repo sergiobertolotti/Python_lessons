@@ -5,7 +5,7 @@ class Finestra(tk.Frame):
     def __init__(self, master = None):
         super().__init__(master)
         self.master.title("Finestra grafica")
-        self.master.geometry("300x200")
+        self.master.geometry("800x800")
         self.grid()
         self.crea_widgets()
         
