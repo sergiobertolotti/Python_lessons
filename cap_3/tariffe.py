@@ -1,0 +1,11 @@
+PERC_IVA = 10
+# Tariffe aziende
+TARIFFA_A = 1.25
+QF_AZIENDE = 21.00
+# Tariffe privati
+T1_FINOA = 80
+T2_FINOA = 120
+T1 = 0.31
+T2 = 0.61
+T3 = 1.09
+QF_PRIVATI = 14.00
