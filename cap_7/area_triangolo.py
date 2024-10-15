@@ -23,7 +23,7 @@ class Triangolo(tk.Frame):
         self.lblAltezza.grid(row = 1, column = 0)
         self.vAltezza = tk.IntVar()
         self.txtAltezza = tk.Entry(self,textvariable= self.vAltezza)
-        self.txtBase.grid(row = 1, column = 1)
+        self.txtAltezza.grid(row = 1, column = 1)
         
         # pulsante pe ril calcolo
         self.btnCalcolo = tk.Button(self, text = "Calcolo area", command = self.calcolo_area)
